@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658023141271",
+    "project_id": "ensogo-internal",
+    "storage_bucket": "ensogo-internal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658023141271:android:76fe9d18293f84c62f3ed2",
+        "android_client_info": {
+          "package_name": "com.tecktack.internal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDta7ktEAQyhUwHNthXbuDe2IeHwnDg8zU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
