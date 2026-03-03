@@ -4,7 +4,4 @@
  */
 
 // Base Components
-export * from './base';
-
-// Skeleton Loaders
-export { Skeleton } from './skeleton';
+// export * from './base';

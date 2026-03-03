@@ -7,9 +7,28 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:658023141271:android:76fe9d18293f84c62f3ed2",
+        "mobilesdk_app_id": "1:658023141271:android:f5f129c97efa6e222f3ed2",
         "android_client_info": {
-          "package_name": "com.tecktack.internal"
+          "package_name": "com.boilerplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDta7ktEAQyhUwHNthXbuDe2IeHwnDg8zU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658023141271:android:749461966c6e22e02f3ed2",
+        "android_client_info": {
+          "package_name": "com.techtack.internal"
         }
       },
       "oauth_client": [],

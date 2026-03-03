@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View, Alert, PermissionsAndroid, Platform } from 'react-native';
+import { StatusBar, StyleSheet, useColorScheme, View, Alert, PermissionsAndroid, Platform, Text } from 'react-native';
 import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
 import messaging from '@react-native-firebase/messaging';
+import { HomeScreen } from './src/features/home';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -54,10 +54,9 @@ function AppContent() {
 
   return (
     <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
+      <Text style={{ marginTop: safeAreaInsets.top, marginBottom: safeAreaInsets.bottom }}>
+        Hello, World!
+      </Text>
     </View>
   );
 }

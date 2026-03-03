@@ -23,7 +23,7 @@
  */
 export const API_CONFIG = {
   // Update this to your API server URL
-  BASE_URL: process.env.REACT_APP_API_URL || 'https://api.example.com',
+  BASE_URL: 'https://api.example.com',
   // Request timeout in milliseconds
   TIMEOUT: 10000,
   // Default headers for all requests
